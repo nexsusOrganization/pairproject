@@ -1,6 +1,5 @@
-
-    body {
-  background-image: url('BACKGROUND.png');
+body {
+  background-image: url('../pictures/BACKGROUND.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -74,5 +73,3 @@ img {
   top: 200px;
   background-color: #FFD700
 }
- 
-
