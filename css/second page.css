@@ -517,19 +517,38 @@ body {
   white-space: nowrap;
 }
 
-.pic
-{
-  .column {
+
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
   float: left;
-  width: 20%;
-  padding: 5px;
+  width: 50%;
+  padding: 10px;
 }
 
-/* Clear floats after image containers */
-.row::after {
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
 }
-
-}
+</style>
