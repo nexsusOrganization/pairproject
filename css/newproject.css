@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+body {
+  background-image: url('../pictures/BACKGROUND.png');
+=======
   body {
   background-image: url('../pictures/back.png');
+>>>>>>> 7b4af0d388ee64da10dfd959d6db39aebcf19142
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -78,6 +83,10 @@ img {
 
 #Buying{
   top: 200px;
+<<<<<<< HEAD
+  background-color: #FFD700
+}
+=======
   background-color: #CD853F 
 }
 
@@ -238,3 +247,4 @@ img {vertical-align: middle;}
 }
 
 
+>>>>>>> 7b4af0d388ee64da10dfd959d6db39aebcf19142
